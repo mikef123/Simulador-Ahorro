@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## BCS – Prueba Técnica Frontend
 
-## Getting Started
+Aplicación desarrollada como parte del proceso técnico para BCS.
+Incluye: Listado de Productos, Simulador de Ahorro, Onboarding con validación, UI responsive, y Testing con Vitest.
 
-First, run the development server:
 
-```bash
+## Tecnologías utilizadas
+
+Next.js 14 (App Router)
+
+React 18
+
+TypeScript
+
+TailwindCSS
+
+React Hook Form + Zod
+
+UUID para generación de códigos
+
+Vitest + Testing Library
+
+CSS moderno con blur, glass UI y responsive design
+
+
+## Estructura del Proyecto
+Products: listado con filtros y búsqueda
+
+Simulator: cálculo financiero con formulario validado
+
+Onboarding: formulario con validaciones Zod + recaptcha checkbox
+
+Tests: suite inicial con Vitest (unit + integration)
+
+## Características principales
+
+1. Listado de Productos
+
+Filtro por nombre
+
+Filtro por tipo (con Headless UI Listbox)
+
+Render responsivo en grid
+
+Carga desde JSON local
+
+2. Simulador de Ahorro
+
+Aporte inicial
+
+Aporte mensual
+
+Meses
+
+Cálculo de interés compuesto
+
+Resultados renderizados en tarjeta central
+
+UI estilo fintech
+
+3. Onboarding
+
+Validaciones estrictas con Zod
+
+Formulario manejado con React Hook Form
+
+Recaptcha simulado (checkbox obligatorio)
+
+Generación de código único con UUID
+
+Modal de éxito con backdrop animado
+
+Tests incluidos (Vitest)
+- Unit Test
+
+Cálculo de interés compuesto (calcInterest.test.ts)
+
+✔ Setup Testing Library
+
+@testing-library/react
+
+@testing-library/jest-dom
+
+Entorno jsdom
+
+
+## Scripts
+Ejecutar en modo desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm run start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Autor
 
-## Learn More
+Miguel Fernando Urquijo Gómez
+Frontend Developer — React / Next.js / TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+Demo: https://tusimulador.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
