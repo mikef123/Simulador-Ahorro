@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Cuenta de Ahorro Digital",
+    "type": "Ahorro",
+    "tasa": "3.5%"
+  },
+  {
+    "id": 2,
+    "name": "Cuenta Nómina Plus",
+    "type": "Nómina",
+    "tasa": "4.2%"
+  },
+  {
+    "id": 3,
+    "name": "Cuenta Futuro Kids",
+    "type": "Ahorro",
+    "tasa": "3.0%"
+  }
+]
