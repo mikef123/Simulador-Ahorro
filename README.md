@@ -30,7 +30,7 @@ Simulator: cálculo financiero con formulario validado
 
 Onboarding: formulario con validaciones Zod + recaptcha checkbox
 
-Tests: suite inicial con Vitest (unit + integration)
+Tests: suite inicial con Vitest 
 
 ## Características principales
 
@@ -38,7 +38,7 @@ Tests: suite inicial con Vitest (unit + integration)
 
 Filtro por nombre
 
-Filtro por tipo (con Headless UI Listbox)
+Filtro por tipo
 
 Render responsivo en grid
 
@@ -56,8 +56,6 @@ Cálculo de interés compuesto
 
 Resultados renderizados en tarjeta central
 
-UI estilo fintech
-
 3. Onboarding
 
 Validaciones estrictas con Zod
@@ -68,14 +66,14 @@ Recaptcha simulado (checkbox obligatorio)
 
 Generación de código único con UUID
 
-Modal de éxito con backdrop animado
+Modal de éxito
 
-Tests incluidos (Vitest)
-- Unit Test
+- Tests incluidos (Vitest)
 
-Cálculo de interés compuesto (calcInterest.test.ts)
+Unit Test
 
-✔ Setup Testing Library
+
+- Setup Testing Library
 
 @testing-library/react
 
