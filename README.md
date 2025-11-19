@@ -6,9 +6,9 @@ Incluye: Listado de Productos, Simulador de Ahorro, Onboarding con validación, 
 
 ## Tecnologías utilizadas
 
-Next.js 14 (App Router)
+Next.js 16 (App Router)
 
-React 18
+React 19
 
 TypeScript
 
@@ -44,6 +44,14 @@ Render responsivo en grid
 
 Carga desde JSON local
 
+El renderizado es SSR para mayor performance y SEO
+
+¿Por qué SSR?
+
+  - Los datos no cambian frecuentemente
+
+  - Next.js permite renderizarlos al servidor para mejorar tiempos iniciales
+
 2. Simulador de Ahorro
 
 Aporte inicial
@@ -52,9 +60,9 @@ Aporte mensual
 
 Meses
 
-Cálculo de interés compuesto
+Validado con React Hook Form + Zod
 
-Resultados renderizados en tarjeta central
+Cálculo basado en una fórmula financiera simple: total = montoInicial + (aporteMensual * meses)
 
 3. Onboarding
 
@@ -68,18 +76,18 @@ Generación de código único con UUID
 
 Modal de éxito
 
-- Tests incluidos (Vitest)
+Tests incluidos (Vitest)
 
 Unit Test
 
 
-- Setup Testing Library
+ Setup Testing Library
 
-@testing-library/react
+  - @testing-library/react
 
-@testing-library/jest-dom
+  - @testing-library/jest-dom
 
-Entorno jsdom
+  - Entorno jsdom
 
 
 ## Scripts
