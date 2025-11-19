@@ -97,6 +97,4 @@ Autor
 Miguel Fernando Urquijo Gómez
 Frontend Developer — React / Next.js / TypeScript
 
-Demo: https://tusimulador.vercel.app/
-
 
